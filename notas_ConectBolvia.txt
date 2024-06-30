@@ -1,0 +1,9 @@
+para hacer:
+*-Pasar la base de datos a excel y subirlo a git
+-revisar el boton de contacto; no funciona. Enlacar al formulario de contactos
+-Crear accion: boton "mas detalle"; debe apracer un cuadro de texto al hacer click en boton y desaparecer al volver hacer click. el texto debe estar debajo del boton
+-Agregar al menu bar, un enlace para un login de acceso:
+	-crear formulario de acceso(login)
+
+
+hecho:

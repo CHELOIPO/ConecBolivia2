@@ -16,12 +16,13 @@
         <input type="checkbox" id="menu-bar">
         <label for="menu-bar" class="fa fa-bars"></label>
         <nav class="navbar">
-            <a href="inicio">Home</a>
+            <a href="">Home</a>
             <a href="#detalles">Detalles</a>
             <a href="#acerca_de ">Acerca de</a>
             <a href="#opiniones">Opiniones</a>
             <a href="#precios">Precios</a>
-            <a href="#contacto">Contacto</a>
+            <a href="#contactos">Contacto</a>
+            <a href="login.php">Login</a>
         </nav>
     </header>
     <section class="inicio">
@@ -35,7 +36,15 @@
                 temporibus. Vitae sed cum soluta quod rerum odio obcaecati blanditiis 
                 fugit veritatis aliquid?
             </p>
-            <a href="" class="btn">MAS DETALLES </a>
+            <a href="" class="btn" id="botonc" onclick="mostrar();">MAS DETALLES </a>
+            <div id="texto-oculto">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptatibus
+                    eveniet nemo ipsam, quidem voluptates autem in quis quisquam veniam labore 
+                    aliquam consectetur unde, molestiae suscipit sint distinctio. Ad ipsam earum
+                    suscipit odit, velit architecto cupiditate rerum exercitationem vero eius 
+                    ratione eos, vel eligendi quo cumque nostrum corrupti iste repudiandae.</p>
+
+            </div>
         </div>
         <div class="image">
             <img src="imgenes/foto3.jpg" alt="servidor" srcset="">
@@ -292,6 +301,6 @@
     </div>
 
 
-
+<script src="/js/app.js"></script>
 </body>
 </html>

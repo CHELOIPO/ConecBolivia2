@@ -208,7 +208,9 @@ header label{
     padding: 1rem 0;
 
 }
-
+.inicio .content #texto-oculto{
+    display: none;
+}
 .inicio .content .btn{
     color: rgb(2, 42, 78);
 

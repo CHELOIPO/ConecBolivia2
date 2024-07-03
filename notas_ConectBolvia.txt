@@ -1,9 +1,24 @@
-para hacer:
-*-Pasar la base de datos a excel y subirlo a git
--revisar el boton de contacto; no funciona. Enlacar al formulario de contactos
+============
+Para hacer:
+============
+-crear icono y logotipo (50x50 , 500x500)
+	usar: photoshop, logomaker, canva
+-crear formulario de acceso(login)
+-crear formulario de registro usuario
+	(opcional usar libreria admin lte)
+-quitar referencias en db
+-actualizar campos en db
+-crear el panel de control
+-cambiar fondo de header al mismo del footer
+-quitar imagen de audiculares
+-llevar los planes al principio
+========
+Hecho:
+========
 -Crear accion: boton "mas detalle"; debe apracer un cuadro de texto al hacer click en boton y desaparecer al volver hacer click. el texto debe estar debajo del boton
--Agregar al menu bar, un enlace para un login de acceso:
-	-crear formulario de acceso(login)
-
-
-hecho:
+-Agregar al menu bar, un enlace para un login de acceso
+-Pasar la base de datos a excel y subirlo a git
+-revisar el boton de contacto; no funciona. Enlazar al formulario de contactos
+=============
+En revision
+=============

@@ -174,13 +174,7 @@
             <img src="imgenes/servi2.webp" alt="" srcset="">
           </div>
           <div class="content">
-            <h3></h3>
             <p class="acerca-conte">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut tempora
-              optio dolorem voluptates, perferendis totam unde quibusdam nesciunt.
-              Consequatur, itaque?
-            </p>
-            <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas 
               tempore culpa itaque autem libero, repellat iure odit, adipisci nobis
               nulla necessitatibus earum est suscipit corrupti consequatur ipsam minus

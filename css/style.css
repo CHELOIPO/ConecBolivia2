@@ -24,11 +24,16 @@ html{
   overflow-x: auto;
 }
 body{
-  background: #bdb9b9;
+  background: white;
+  color: aliceblue;
+}
+.cabezera{
+  margin-bottom: 500px;
+
 
 }
 section{
-  min-height: 100vh;
+  min-height: 85vh;
   padding: 0 9%;
   padding-top: 7.5rem;
   padding-bottom: 2rem;
@@ -38,9 +43,9 @@ section{
   margin-top: 1rem;
   padding: .8rem 3rem;
   border-radius: 5rem ;
-  background: var(--degraddo);
+  /*background: color(rgb red green rgb(6, 32, 2));*/
   font-size: 1.5rem;
-  color: rgb(114, 114, 55);
+  color: rgb(129, 235, 129);
   cursor: pointer;
   box-shadow: 0 .5rem 1rem  rgba(17, 16, 16, 0.1);
   transition: all .3s linear ;
@@ -56,28 +61,23 @@ header{
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgb(34, 18, 18);
-  box-shadow: 0 .5rem 1rem rgba(17, 16, 16, 0.1);
-  padding: 2rem 9%;
+  /*background-color: rgb(23, 77, 39);*/
+  box-shadow: 0 .2rem 1rem rgba(245, 239, 239, 0.884);
+  
   display: flex;
   align-items: center;
   justify-content: space-around;
   z-index: 1000;
+  margin-bottom: 150px;
 }
 
-header .logo{
 
-  font-size: 2rem;
-  color: rgb(153, 245, 245);
-}
-header .logo span{
-  color:rgb(187, 13, 42);
 
-}
 header .navbar a{
   font-size: 1.8rem;
   margin-left: 2rem;
-  color: var(--celeste);
+  color: rgb(6, 7, 6);
+  text-shadow: 0 0 4px rgb(205, 245, 125), 0 0 8px yellow , 0 0 12px rgb(126, 179, 21);
 }
 header .navbar a:hover{
   color: rgb(187, 13, 42);
@@ -86,13 +86,7 @@ header .navbar a:hover{
 header input{
   display: none;
 }
-header label{
-  font-size: 2.8rem;
-  color: var(--degraddo);
-  cursor: pointer;
-  visibility: hidden;
-  opacity: 0;
-}
+
 
 
 @media (max-width:768px) {
@@ -100,12 +94,14 @@ header label{
     visibility: visible;
     opacity: 1;
   }
+
+  
   header .navbar{
     position: absolute;
     top: 100%;
     left: 0;
     width: 90%;
-    background: #f3f3f0;
+    /*background: #f3f3f0;*/
     padding: 1rem 2rem;
     border-top: .1rem solid rgba(0,0, 0,.2);
     box-shadow: 0 .6rem 1rem rgba(0,0, 0,.1) ;
@@ -117,7 +113,9 @@ header label{
   header .navbar a{
     display: block;
     margin: 2rem 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    color: rgb(20, 73, 18);
+    font-weight: bold;
 
   }
   header input:checked ~ .navbar{
@@ -134,9 +132,7 @@ header label{
   .inicio .content h3{
     font-size: 3.6rem;
   }
-  .inicio .content p{
-    font-size: 1.5rem;
-  }
+
   /*acerca_de*/
   .acerca_de{
     background-position: right;
@@ -203,16 +199,18 @@ header label{
   text-transform: uppercase;
 }
 .inicio .content p{
-  font-size: 1rem;
-  color: #08080866;
-  padding: 1rem 0;
+  font-size: 1.4rem;
+  color: #1b5a44;
+  padding: 2rem 1rem;
+  margin-right: 2rem;
 
 }
 /*.inicio .content #texto-oculto{
   display: none;
 }*/
 .inicio .content .btn{
-  color: rgb(2, 42, 78);
+  color: rgb(234, 237, 240);
+  background-color: #114d2f;
 
 }
 .inicio .content .btn:hover{
@@ -229,13 +227,14 @@ header label{
   -webkit-background-clip: text;
   background-clip: text;
   font-size: 3.5rem;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   padding: 1rem;
+  
 
 
 }
-.detalles   h1{
-  color: aqua;
+.detalles   h2{
+  color:#1b5a44;
   border-color: black;
   border-width: 10px;
 }
@@ -247,7 +246,7 @@ header label{
 }
 .detalles .caja-contenedor .caja{
   flex: 1 1 30rem;
-  background: rgba(153, 228, 247, 0.753);
+  background: rgb(52,94,80);
   border-radius: .5rem;
   border: .1rem solid rgba(0,0, 0,.2);
   box-shadow: 0 .5rem 1rem rgba(0,0, 0,.1);
@@ -267,7 +266,7 @@ header label{
 
 .detalles .caja-contenedor .caja p{
   font-size: 1.5rem;
-  color:#666;
+  color:#f1eeee;
   padding: 1rem 0;
 }
 .detalles .caja-contenedor .caja img{
@@ -299,19 +298,37 @@ header label{
 .acerca_de .columna .content {
   flex: 1 1 40rem;
 }
-.acerca_de .columna .content h3{
-  font-size: 3rem;
-  color: var(--azul1);
-}
+
 .acerca_de .columna .content p{
   font-size: 1.5rem;
   padding: 1rem 0;
-  color: turquoise;
+  color: #1b5a44;
+  text-decoration: solid;
 }
+
+.acerca_de .columna .content .bottons{
+  display: flex;
+  align-content: center;
+  text-align: center;
+}
+
+.acerca_de .columna .content .bottons a{
+  color: #f1eeee;
+  background-color: #1b5a44;
+  margin: 20px;
+}
+.acerca_de .columna .content .bottons a:hover{
+  color: red;
+}
+
 .acerca_de .columna .content .bottons a :last-child{
   margin-left: 2rem;
 }
+
 /**other*/
+.sus-principal{
+  min-height: auto;
+}
 .suscribete{
   text-align: center;
   padding: 5rem 1rem;
@@ -319,16 +336,17 @@ header label{
   background-size: cover;
   background-position: center;
 }
-.suscribete h3{
+.suscribete h2{
   color: aliceblue;
   font-size: 2.5rem;
-  text-transform: uppercase;
+  
 }
 .suscribete p{
   color: azure;
   font-size: 1.6rem;
   margin: 2rem auto;
   width: 70rem;
+  text-transform: none;
 }
 .suscribete form{
   display: flex;
@@ -338,21 +356,27 @@ header label{
   border-radius: 3rem;
   margin: 2rem auto;
   height: 5.5rem;
+  background-color: #1b5a44;
 }
 .suscribete form input[type="email"]{
   padding: 0 2rem;
   font-size: 1.7rem;
   background: none;
   width: 100%;
-  color: azure;
+  color: white;
   text-transform: none;
   background: none;
 }
-.suscribete form input[type="email"]
-{
-  color: azure;
-  text-transform: capitalize;
 
+.suscribete form input{
+  color: rgb(202, 0, 0);
+  border-radius: 10px;
+  padding: 5px;
+}
+.suscribete form .btn-sus:hover{
+  text-transform: uppercase;
+ 
+  text-shadow: 0 0 0 rgb(188, 219, 14);
 }
 
 .suscribete form input [type="submit"]{
@@ -365,12 +389,22 @@ header label{
 .suscribete form input [type="submit"]:hover{
   color:rgb(206, 245, 147);
 }
+
+.opiniones{
+min-height: auto;
+
+}
 /**OPINIONES***/
 .opiniones .caja-contenedor {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.opiniones h2{
+  color: #1b5a44;
+
 }
 .opiniones .caja-contenedor .caja{
   color: whitesmoke;
@@ -400,11 +434,11 @@ header label{
   margin-top: 2rem;
 }
 .opiniones .caja-contenedor .caja .user h3{
-  color: aqua;
+  color:#daf8ee;
   font-size: 2rem;
 }
 .opiniones .caja-contenedor .caja .user .stars i{
-  color: aqua;
+  color: rgb(242, 252, 252);
   font-size: 1.5rem;
   padding: 1rem 0;    
 }
@@ -415,6 +449,10 @@ header label{
 
 }
 /**precios */
+.precios h2{
+  color: #1b5a44;
+}
+
 .precios .caja-contenedor{
   display: flex;
   align-items: center;
@@ -425,10 +463,10 @@ header label{
   flex: 1 1 30rem ;
   margin: 1rem;
   padding: 1rem;
-  background-color: aquamarine;
-  border: .1rem solid rgba(0,0, 0,.2);
-  box-shadow: 0 .5rem 1rem rgba(0,0, 0,.2);
-  border-radius: .5rem;
+  background-color: rgb(52, 94, 80);
+  border: .1rem solid rgba(105, 3, 3, 0.2);
+  box-shadow: 0 .5rem 1rem rgba(17, 3, 3, 0.2);
+  border-radius: 20px;
   text-align: center;
   padding-bottom: 3rem ;
 }
@@ -439,13 +477,14 @@ header label{
 }
 
 .precios .caja-contenedor .caja .titulo{
-  color:var(--azul1);
+  color:rgba(5, 36, 5, 0.651);
+  text-shadow: 0 0 10px rgb(143, 241, 105);
   font-size: 2.5rem;
   padding-top: 1rem;
 }
 .precios .caja-contenedor .caja .tipos{
   font-size: 4rem;
-  color: rgb(177, 238, 238);
+  color: rgb(21, 49, 17);
   padding: 1rem 0;
 }
 .precios .caja-contenedor .caja .tipos span{
@@ -458,7 +497,7 @@ header label{
 }
 .precios .caja-contenedor .caja ul li {
   font-size: 1.7rem;
-  color: #3333;
+  color: #fdf6f6;
   padding: .5rem 0;
 
 }
@@ -471,12 +510,27 @@ header label{
   color: red;
 
 }
+
+.precios .caja-contenedor  .caja .li-caja {
+  display:grid;
+  text-align: left;
+}
+
+.precios .caja-contenedor .caja  .btn-compra{
+  color: rgb(8, 59, 5);
+  background-color: #fdf6f6;
+  border-width: 20px;
+  border-color: #fdf6f6;
+}
+
 .contactos{
+  
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   padding-bottom: 4rem;
+  
 }
 .contactos .image{
   flex: 1 1 40rem;
@@ -490,23 +544,29 @@ header label{
   flex: 1 1 40rem;
   padding: 2rem 3rem;
   border: .1rem solid rgba(0,0, 0,.2);
-  box-shadow: 0 .5rem 1rem  rgba(0,0, 0,.2);
+  box-shadow: 0 .5rem 1rem  rgb(245, 240, 240);
   border-radius: .5rem;
-  background-color: antiquewhite;
+  background-color: #1b5a44;
+  width: 700px;
 } 
 .contactos .heading{
   text-align: left;
   padding: 0;
   padding-bottom: 2rem;
+  color:whitesmoke;
+
 }
 .contactos form .inputcaja{
   position: relative;
+}
+.contactos div form .inputcaja label{
+  color: #daf8ee;
 }
 
 .contactos form .inputcaja input, .contactos form .inputcaja textarea{
   width: 100%;
   background: none;
-  color: #3333;
+  color: #f1eeee;
   margin: 1.5rem;
   padding: .5rem 0;
   font-size: 1.7rem;
@@ -535,6 +595,8 @@ header label{
   font-size: 1.5rem;
   color: var(--degraddo);
 }
+
+
 /*footer*/
 .footer{
   padding: 3rem;

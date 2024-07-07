@@ -5,31 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PaginaInicio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
+    <link rel="icon" type="image/jpg" href="../ConecBolivia2/imgenes/connectBolivialogo.ico" >
     <link rel="stylesheet" href="css/style.css">
     
   </head>
   <body>
     <header>
-      <a href="" class="logo">
-        <span>CONNECT</span>BOLIVIA
-      </a>
-      <input type="checkbox" id="menu-bar">
-      <label for="menu-bar" class="fa fa-bars"></label>
-      <nav class="navbar">
-        <a href="">Home</a>
-        <a href="#detalles">Detalles</a>
-        <a href="#acerca_de ">Acerca de</a>
-        <a href="#opiniones">Opiniones</a>
-        <a href="#precios">Precios</a>
-        <a href="#contactos">Contacto</a>
-        <a href="login.php">Login</a>
-      </nav>
+      
+      
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar" class="fa fa-bars"></label>
+        <a href=""><img src="../ConecBolivia2/imgenes/connectBolivialogo.png" width="180px" height="150" alt="LOGO" ></a> 
+        <nav class="navbar">
+          <a href="">Home</a>
+          <a href="#precios">Precios</a>
+          <a href="#detalles">Servicios</a>
+          <a href="#acerca_de ">Acerca de</a>
+          <a href="#opiniones">Opiniones</a>
+          <a href="#contactos">Contacto</a>
+          <a href="login.php">Login</a>
+        </nav>
     </header>
     <section class="inicio">
       <div class="content">
         <h3>NET CONECTION <span>SPACE WEB </span></h3>
-        <p class="">
+        <p class="contenido_1">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi 
           ad mollitia maiores doloremque nisi. Dolor maxime veniam saepe. 
           Numquam, saepe similique suscipit dicta ex quos tempora, eaque aperi-
@@ -50,58 +50,132 @@
       </div>
       <div class="image">
         <img src="imgenes/foto3.jpg" alt="servidor" srcset="">
-
       </div>
+    </section>  
+    
+          <section class="precios" id="precios">
+            <h2 class="heading">Opciones de Compra</h2>
+            <div class="caja-contenedor">
+                <div class="caja">
+                    <h3 class="titulo" id="categoria">Emprendedor_100</h3>
+                    <div class="tipos" id="precio_producto">$ 100 <span> con factura </span> </div>
+                    <ul class="li-caja">
+                        <li id="nombre_producto"><i class="fas fa-check"></i>Emprendedor_basico</li>
+                        <li id="almacenamiento" ><i class="fas fa-check"></i>60 gigas</li>
+                        <li id="aditivo_producto"><i class="fas fa-check"></i>Woocommerce Adminstrativo</li>
+                        <li id="oferta_producto" ><i class="fas fa-check"></i>1 mes regalo</li>
+                    </ul>
+                    <a href="#" class="btn btn-compra ">Elegir plan</a>
+                </div>
+                <div class="caja">
+                    <h3 class="titulo" id="categoria">Emprendedor_200</h3>
+                    <div class="tipos" id="precio_producto">$ 140 <span> con factura </span> </div>
+                    <ul class="li-caja">
+                        <li id="nombre_producto"><i class="fas fa-check"></i>Emprendedor_intermedio</li>
+                        <li id="almacenamiento" ><i class="fas fa-check"></i>80 gigas</li>
+                        <li id="aditivo_producto"><i class="fas fa-check"></i>Woocommerce Adminstrativo</li>
+                        <li id="oferta_producto" ><i class="fas fa-times"></i>2 mes regalo</li>
+                    </ul>
+                    <a href="#" class="btn btn-compra">Elegir plan</a>
+                </div>
+                <div class="caja">
+                    <h3 class="titulo" id="categoria">Comercial_100</h3>
+                    <div class="tipos" id="precio_producto">$ 200 <span> con factura </span> </div>
+                    <ul class="li-caja">
+                        <li id="nombre_producto"><i class="fas fa-check"></i>Comercial_basico</li>
+                        <li id="almacenamiento" ><i class="fas fa-check"></i>100 gigas</li>
+                        <li id="aditivo_producto"><i class="fas fa-check"></i>Woocommerce Adminstrativo</li>
+                        <li id="oferta_producto" ><i class="fas fa-times"></i>2 mes regalo</li>
+                    </ul>
+                    <a href="#" class="btn btn-compra">Elegir plan</a>
+                </div>
+                <div class="caja ">
+                    <h3 class="titulo" id="categoria">Comercial_200</h3>
+                    <div class="tipos" id="precio_producto">$ 250 <span> con factura </span> </div>
+                    <ul class="li-caja">
+                        <li id="nombre_producto"><i class="fas fa-check"></i>Comercial_intermedio</li>
+                        <li id="almacenamiento" ><i class="fas fa-check"></i>150 gigas</li>
+                        <li id="aditivo_producto"><i class="fas fa-check"></i>Woocommerce Adminstrativo</li>
+                        <li id="oferta_producto" ><i class="fas fa-times"></i>2 mes regalo</li>
+                    </ul>
+                    <a href="#" class="btn btn-compra">Elegir plan</a>
+                </div>
+                <div class="caja">
+                    <h3 class="titulo" id="categoria">Empresarial_100</h3>
+                    <div class="tipos" id="precio_producto">$ 500 <span> con factura </span> </div>
+                    <ul class="li-caja">
+                        <li id="nombre_producto"><i class="fas fa-check"></i>Empresarial_Basico</li>
+                        <li id="almacenamiento" ><i class="fas fa-check"></i>200 gigas</li>
+                        <li id="aditivo_producto"><i class="fas fa-check"></i>Woocommerce Adminstrativo</li>
+                        <li id="oferta_producto" ><i class="fas fa-times"></i>3 mes regalo</li>
+                    </ul>
+                    <a href="#" class="btn btn-compra">Elegir plan</a>
+                </div>
+                <div class="caja">
+                    <h3 class="titulo" id="categoria">Empresarial_200</h3>
+                    <div class="tipos" id="precio_producto">$ 700 <span> con factura </span> </div>
+                    <ul class="li-caja">
+                        <li id="nombre_producto"><i class="fas fa-check"></i>Empresarial_Full</li>
+                        <li id="almacenamiento" ><i class="fas fa-check"></i>500 gigas</li>
+                        <li id="aditivo_producto"><i class="fas fa-check"></i>Woocommerce Adminstrativo</li>
+                        <li id="oferta_producto" ><i class="fas fa-times"></i>3 mes regalo</li>
+                    </ul>
+                    <a href="#" class="btn btn-compra">Elegir plan</a>
+                </div>
+            </div>
+          </section>
+
+
 
     </section>
     <section class="detalles" id="detalles">
-      <h1 class="heading">DETALLES </h1>
+      <h2 class="heading">Servicios </h2>
       <div class="caja-contenedor">
-        <div class="caja">
+        <div class="caja caja-servicio">
           <img src="imgenes/foto2.jpg" alt="" srcset="">
-          <h3>SISTEMA MODERNO</h3>
+          <h3>Sistemas Backup</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
             optio illo repellendus voluptatem earum obcaecati vel magni quis
             deleniti delectus alias eaque, incidunt recusandae natus mollitia,
             omnis velit cumque laudantium!
           </p>
-          <a href="" class="btn">VER MAS</a>
+          
         </div>
-        <div class="caja">
+        <div class="caja caja-servicio">
           <img src="imgenes/foto3.jpg" alt="" srcset="">
-          <h3>RAPIDO</h3>
+          <h3>Estructura Moderna</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
             optio illo repellendus voluptatem earum obcaecati vel magni quis
             deleniti delectus alias eaque, incidunt recusandae natus mollitia,
             omnis velit cumque laudantium!
           </p>
-          <a href="" class="btn">VER MAS</a>
+          
         </div>
-        <div class="caja">
+        <div class="caja caja-servicio">
           <img src="imgenes/foto4.avif" alt="" srcset="">
-          <h3>EFICIENTE</h3>
+          <h3>Sistema eficiente 24/7</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
             optio illo repellendus voluptatem earum obcaecati vel magni quis
             deleniti delectus alias eaque, incidunt recusandae natus mollitia,
             omnis velit cumque laudantium!
           </p>
-          <a href="" class="btn">VER MAS</a>
+          
         </div>
       </div>
       <section class="acerca_de" id="acerca_de">
-        <h1 class="heading">
-          ACERCA DE
-        </h1>
+        <h2 class="heading">
+          Acerca de
+        </h2>
         <div class="columna">
           <div class="image">
             <img src="imgenes/servi2.webp" alt="" srcset="">
           </div>
           <div class="content">
-            <h3>FULL EFICIENCIA</h3>
-            <p>
+            <h3></h3>
+            <p class="acerca-conte">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut tempora
               optio dolorem voluptates, perferendis totam unde quibusdam nesciunt.
               Consequatur, itaque?
@@ -119,21 +193,18 @@
               <a href="" class="btn"><i class="fab fa-google-play"></i>APPLE-STORE</a>
             </div>
           </div>
-          <section>
+          <section class="sus-principal">
             <div class="suscribete">
-              <h3>Suscribtete para novedades</h3>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
-                eius expedita dolor beatae vel quibusdam repellendus rerum fugit 
-                accusantium vitae rem officiis architecto, itaque id nostrum quas 
-                quaerat explicabo obcaecati. Eum illo ipsum laborum alias?</p>
-              <form action="">
-                <input type="email" placeholder="Ingresa tu email">
-                <input type="submit" value="suscribete">
+              <h2>Suscribete para Novedades</h2>
+              <p>Al estar suscrito podras tener mayor opcion de noticias tanto sobre ofertas y demas</p>
+              <form  class="formu-sus" action="">
+                <input class="place" type="email" placeholder="Ingresa tu email">
+                <input class="btn-sus"  type="submit" value="suscribete">
               </form>    
             </div>
           </section>
           <section class="opiniones" id="opiniones">
-            <h1 class="heading">opiniones de clientes </h1>
+            <h2 class="heading">opiniones de clientes </h2>
             <div class="caja-contenedor">
               <div class="caja">
                 <i class="fas fa-atom"></i>
@@ -201,51 +272,11 @@
         </div>
       </section>
     </section>
-    <section class="precios" id="precios">
-      <h1 class="heading">Planes de pago</h1>
-      <div class="caja-contenedor">
-        <div class="caja">
-          <h3 class="titulo">tradiciones</h3>
-          <div class="tipos">$ 50 <span> con factura </span> </div>
-          <ul>
-            <li><i class="fas fa-check"></i>manos libres </li>
-            <li><i class="fas fa-check"></i>alta resistencia</li>
-            <li><i class="fas fa-times"></i>extra basss </li>
-            <li><i class="fas fa-times"></i>cancelacion de ruido  </li>
-          </ul>
-          <a href="#" class="btn">compra ya</a>
-        </div>
-        <div class="caja">
-          <h3 class="titulo">tradiciones</h3>
-          <div class="tipos">$ 50 <span> con factura </span> </div>
-          <ul>
-            <li><i class="fas fa-check"></i>manos libres </li>
-            <li><i class="fas fa-check"></i>alta resistencia</li>
-            <li><i class="fas fa-times"></i>extra basss </li>
-            <li><i class="fas fa-times"></i>cancelacion de ruido  </li>
-          </ul>
-          <a href="#" class="btn">compra ya</a>
-        </div>
-        <div class="caja">
-          <h3 class="titulo">tradiciones</h3>
-          <div class="tipos">$ 50 <span> con factura </span> </div>
-          <ul>
-            <li><i class="fas fa-check"></i>manos libres </li>
-            <li><i class="fas fa-check"></i>alta resistencia</li>
-            <li><i class="fas fa-times"></i>extra basss </li>
-            <li><i class="fas fa-times"></i>cancelacion de ruido  </li>
-          </ul>
-          <a href="#" class="btn">compra ya</a>
-        </div>
-      </div>
-    </section>
+    
     <section class="contactos">
-      <div class="image">
-        <img src="imgenes/form_img.png" alt="" >
-      </div>
-      <div id="contactos"></div>
+      <div id="contactos">
         <form action="">
-          <h1 class="heading">contactos</h1>
+          <h2 class="heading">contactos</h2>
           <div class="inputcaja">
             <input type="text" required>
             <label for="">nombre</label>
@@ -262,10 +293,9 @@
             <textarea  required name="" id="" cols="30" rows="10"></textarea>
             <label for="">mensaje</label>
           </div>
-          <input type="submit" class="btn"  value="ENVIAR">
-
+          <input type="submit" class="btn-enviar"  value="ENVIAR">
         </form>
-      
+      </div>
     </section>
     <div class="footer">
       <div class="caja-contenedor">

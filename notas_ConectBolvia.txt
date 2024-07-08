@@ -22,3 +22,10 @@ Hecho:
 =============
 En revision
 =============
+-se creo el icono
+-se cambio los diseño de colores 
+-se cambio los planes 
+-se quito la imagen  
+-se quito las relaciones 
+-se modifico la tabla 
+-ya esta la pagina login

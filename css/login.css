@@ -1,14 +1,114 @@
 body{
 	margin: 0;
 	padding: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	/*display: flex;
+	justify-content: center;*/
 	min-height: 100vh;
-	font-family: 'Jost', sans-serif;
-	background: linear-gradient(to bottom, #1b5a40, #1b5a60, #1b5a44);
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	background: linear-gradient(to bottom, #e1eee9, #0a3f0e, #033f2b);
+	display: grid;
+	grid-template-rows: 30% 70%;
 }
+
+
+/**HEADER **/
+
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	/*background-color: rgb(23, 77, 39);*/
+	box-shadow: 0 .2rem 1rem rgba(245, 239, 239, 0.884);
+	
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	z-index: 1000;
+	margin-bottom: 150px;
+}
+
+header .navbar a{
+	font-size: 1.8rem;
+	margin-left: 2rem;
+	color: rgb(6, 7, 6);
+	text-shadow: 0 0 4px rgb(205, 245, 125), 0 0 8px yellow , 0 0 12px rgb(126, 179, 21);
+}
+header .navbar a:hover{
+	color: rgb(187, 13, 42);
+	transition: 1s;
+}
+header input{
+	display: none;
+}
+@media (max-width:768px) {
+	header label{
+	  visibility: visible;
+	  opacity: 1;
+	}
+  
+	
+	header .navbar{
+	  position: absolute;
+	  top: 100%;
+	  left: 0;
+	  width: 90%;
+	  /*background: #f3f3f0;*/
+	  padding: 1rem 2rem;
+	  border-top: .1rem solid rgba(0,0, 0,.2);
+	  box-shadow: 0 .6rem 1rem rgba(0,0, 0,.1) ;
+	  transform-origin: top;
+	  transform: scaleY(0);
+	  opacity: 0;
+  
+	}
+	header .navbar a{
+	  display: block;
+	  margin: 2rem 0;
+	  font-size: 1.5rem;
+	  color: rgb(20, 73, 18);
+	  font-weight: bold;
+  
+	}
+	header input:checked ~ .navbar{
+	  transform: scaleY(1);
+	  opacity: 1 ;
+	}
+	header input:checked ~ label ::before {
+	  content:'\f00d';
+	}
+  
+	.inicio .image {
+	  width: 100%;
+	}
+	.inicio .content h3{
+	  font-size: 3.6rem;
+	}
+  
+	/*acerca_de*/
+	.acerca_de{
+	  background-position: right;
+	}
+	/*suscribete*/
+	.suscribete p {
+	  width: auto;
+	}
+}
+
+
+
+
+/*** **/
+
+
+.box-p{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+
 .main{
+	text-align: center;
 	width: 350px;
 	height: 500px;
 	background: red;

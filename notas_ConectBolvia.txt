@@ -1,17 +1,14 @@
 ============
 Para hacer:
 ============
--crear icono y logotipo (50x50 , 500x500)
-	usar: photoshop, logomaker, canva
--crear formulario de acceso(login)
--crear formulario de registro usuario
-	(opcional usar libreria admin lte)
--quitar referencias en db
--actualizar campos en db
 -crear el panel de control
--cambiar fondo de header al mismo del footer
--quitar imagen de audiculares
--llevar los planes al principio
+	*dividir el panel (header, footer)
+	*menu usuario
+	*menu items
+	*menu ventas
+	*menu categorias
+
+
 ========
 Hecho:
 ========
@@ -19,13 +16,16 @@ Hecho:
 -Agregar al menu bar, un enlace para un login de acceso
 -Pasar la base de datos a excel y subirlo a git
 -revisar el boton de contacto; no funciona. Enlazar al formulario de contactos
+-crear icono y logotipo (50x50 , 500x500)
+	usar: photoshop, logomaker, canva
+-crear formulario de acceso(login)
+-crear formulario de registro usuario
+	(opcional usar libreria admin lte)
+-quitar referencias en db
+-actualizar campos en db
+-cambiar fondo de header al mismo del footer
+-quitar imagen de audiculares
+-llevar los planes al principio
 =============
 En revision
 =============
--se creo el icono
--se cambio los diseño de colores 
--se cambio los planes 
--se quito la imagen  
--se quito las relaciones 
--se modifico la tabla 
--ya esta la pagina login
